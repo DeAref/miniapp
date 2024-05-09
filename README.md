@@ -12,3 +12,14 @@ telegam miniapp (webapp) with php/js | how it works?
 ## how miniapp work
 MiniApp is a feature of telegram that provides a GUI for bots.
 
+![telegram miniapp](https://github.com/DeAref/miniapp/assets/95649368/248f0365-a18f-4326-ac79-e88b43c8e07a)
+1. user opens the mini app.
+2. client sends a request to Telegram servers and receives the signed data.
+3. client sends the user information along with the received signatures to the web app.
+4. web app sends the signed data to the bot servers.
+5. bot servers have the token with them.
+6. Using the token, they decode this data and send the requested information to the webapp according to the chatID.
+7. web app receives this data and displays it to the user.
+
+## how to use
+
