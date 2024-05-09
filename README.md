@@ -22,4 +22,6 @@ MiniApp is a feature of telegram that provides a GUI for bots.
 7. web app receives this data and displays it to the user.
 
 ## how to use
-
+- set your bot token in `back.php` 
+- If you want to change the path of the `back.php` file, you must also change the api path in `miniapp.js` line `308`
+- in `back.php` you can return whatever you want
