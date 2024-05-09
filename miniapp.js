@@ -1,17 +1,7 @@
    /*
      * This is a demo code for Telegram WebApp for Bots
      * It contains basic examples of how to use the API
-     * Note: all requests to backend are disabled in this demo, you should use your own backend
      */
-fetch("https://tgads.po2.top/prototype/sendbuttontest.php", {
-  method: "POST",
-  body: JSON.stringify({
-    initData: Telegram.WebApp.initData,
-  }),
-  headers: {
-    "Content-type": "application/json; charset=UTF-8"
-  }
-});
     const DemoApp = {
         initData      : Telegram.WebApp.initData || '',
         initDataUnsafe: Telegram.WebApp.initDataUnsafe || {},
