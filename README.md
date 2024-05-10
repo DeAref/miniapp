@@ -29,6 +29,13 @@ MiniApp is a feature of telegram that provides a GUI for bots.
 - If you want to change the path of the `back.php` file, you must also change the api path in `miniapp.js` line `308`
 - in `back.php` you can return whatever you want
 
+
+
+## Star History
+if the repository was useful, star repository
+
+[![Star History Chart](https://api.star-history.com/svg?repos=DeAref/miniapp&type=Date)](https://star-history.com/#DeAref/miniapp&Date)
+
 ## References
 [revenkroz/telegram-web-app-bot-example](https://github.com/revenkroz/telegram-web-app-bot-example/)
 
